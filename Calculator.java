@@ -37,6 +37,7 @@ public class Calculator {
 	private class ClearButtonListener implements ActionListener {
 		@Override
 		public void actionPerformed(final ActionEvent evt) {
+		    //Sets Input and Output text fields to blank
 		    txtInput.setText("");
 		    txtOutput.setText("");
 		}
